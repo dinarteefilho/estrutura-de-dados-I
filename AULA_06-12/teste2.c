@@ -6,8 +6,8 @@ e preencha cada elemento da matriz com o seu respectivo índice
 (matriz[i][j] = i * 5 + j), e em seguida imprima a matriz.*/
 
 int main() {
+    
     // alocando a matriz de inteiros 5x5, tamanhos definidos
-
     int linhas = 5, colunas = 5;
 
     // alocação do vetor de ponteiros para as linhas da matriz estabelecida anteriormente
@@ -18,7 +18,6 @@ int main() {
     }
 
     // completando/preenchendo a matriz com valores calculados
-
     for (int i = 0; i < linhas; i++) {
         for (int j = 0; j < colunas; j++) {
             matriz[i][j] = i * colunas + j;
@@ -26,7 +25,6 @@ int main() {
     }
 
     // imprimindo a matriz
-
     printf("Matriz:\n");
     for (int i = 0; i < linhas; i++) {
         for (int j = 0; j < colunas; j++) {
@@ -36,7 +34,6 @@ int main() {
     }
 
     // liberando a memória alocada
-
     for (int i = 0; i < linhas; i++) {
         free(matriz[i]);
     }
