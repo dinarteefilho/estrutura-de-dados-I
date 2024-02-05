@@ -1,0 +1,8 @@
+Informacoes do 1 funcionario 
+ NOME dinarte 
+ SALARIO 1200.00 
+ ID: 1
+Informacoes do 2 funcionario 
+ NOME filho 
+ SALARIO 2000.00 
+ ID: 2
