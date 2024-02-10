@@ -1,0 +1,6 @@
+
+Nome da fruta: abacaxi 
+ Preco: 2.99 
+
+Nome da fruta: manga 
+ Preco: 3.99 
