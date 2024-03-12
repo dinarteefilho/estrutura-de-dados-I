@@ -1,0 +1,26 @@
+Void bubblesort(int array[],int n){
+    int i , j //C1: 1 vez
+    for (i = 0; i < n-1; i++ ){ //C2: n vezes
+        for(j = 0; j < n - 1 -i; j++){ //C3: n² vezes
+            if (arr[j] > arr [ j + 1]) //C4: n² vezes
+                swap(&arry[j], &arr[j + 1]); //C5: n² vezes
+        }
+    }
+}
+
+/*
+    C1 + C2 + C3 + C4 + C5
+    1 + n + n² + n² + n²
+    1 + n + 3n²
+    n + 3n²
+    3n²
+    n²
+    O(n²)
+
+    MELHOR CASO: O(n²)
+    PIOR CASO: O(n²)
+
+    Tanto no pior como no melhor caso, a complexidade de tempo é O(n²).
+
+    Já a complexidade de espaço é constante, O(1).
+*/
